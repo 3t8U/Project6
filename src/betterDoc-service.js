@@ -15,3 +15,4 @@ export class BetterDocService {
     }
   }
 }
+  console.log(BetterDocService);
