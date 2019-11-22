@@ -21,6 +21,12 @@ $(document).ready(function(){
 
 
 
+    function getElements(response) {
+        $("#art1").html("<img src='" +  (response.records[0].baseimageurl) +  "'>");
+        $("#art2").html("<img src='" +  (response.records[1].baseimageurl) +  "'>");
+        $("#art3").html("<img src='" +  (response.records[2].baseimageurl) +  "'>");
+      }
+
 
 
 });
