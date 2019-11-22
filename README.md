@@ -31,10 +31,11 @@ _https://3t8u.github._
 ## Setup/Installation Requirements
 
 * _Open HTML page in browser_
-* _Enter your age_
-* _Select the your gender_
+* _Enter your ailment_
+* _or_
+* _Enter a provider name_
 * _Click the submit button_
-* _Enjoy your results!_
+* _Find your provider!_
 
 
 __
@@ -49,7 +50,7 @@ _Any questions, comments or contributions please contact Nate Powers (Russellspr
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, Git, jQuery and Javascript, Webpack, Jest, Nodejs, Eslinter and the wisdom of the planets_
+_HTML, CSS, Bootstrap, Git, jQuery and Javascript, Webpack, Jest, Nodejs, Eslinter and several anonymous sources deep within the medical community_
 
 ### License
 
