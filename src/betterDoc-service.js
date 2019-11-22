@@ -1,7 +1,7 @@
 export class BetterDocService {
-  async getArt(art) {
+  async getDoc(doctor) {
     try {
-      let response = await fetch('https://api.betterdoctor.com/2016-03-01?doctor_uid&api_key=0814daadd41f7d22d4721315d9ed7c8d');
+      let response = await fetch('https://api.betterdoctor.com/2016-03-01/doctors?location=37.773,-122.413,100&skip=2&limit=10&user_key=0814daadd41f7d22d4721315d9ed7c8d');
       let jsonifiedResponse = await response.json();
       return jsonifiedResponse;
     } catch(error) {
