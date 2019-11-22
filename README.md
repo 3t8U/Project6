@@ -1,12 +1,12 @@
-# _Super Galactic Age Calculator_
+# _1-900-CAL-ADOC_
 
-#### _This is an application to calculate a user's age on different planets within the solar system_
+#### _This is an application to locate a medical provider tailored to a specific ailment_
 
 #### By _**Nate Powers**_
 
 ## Description
 
-_This application allows the user to calculate their age in years on Mercury, Venus, Mars & Jupiter.
+_This application allows the user to locate a local Portland medical provider by specialty, name or user ailment._
 
 _https://3t8u.github._
 
@@ -24,16 +24,6 @@ _https://3t8u.github._
 
   * _Example Input: User enters 40 years and selects gender "Male"_
   * _Example Output: Application subtracts 40 from 80 then returns the result into a new let_
-
-* _The application sends the result of the life expectancy function back into the age calculator function and outputs the user life expectancy on each planet with a message_
-
-  * _Example Input: User enters 40 years and selects gender "Male"_
-  * _Example Output: "You have 35 earth years, 166 Mercurial years, 65 Venutian years, 21 Martian years & 3 Jupiterian years left to live. Congratulations and good luck_
-
-  * _If the user has surpassed the life expectancy, The application sends the difference of additional years back to the user with message_
-
-    * _Example Input: User enters 85 years and selects gender "Male"_
-    * _Example Output: "Great, you beat the odds by 5 years. Enjoy the rest of your decay"_
 
 
 
