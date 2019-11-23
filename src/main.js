@@ -13,9 +13,9 @@ $(document).ready(function(){
       (async () => {
         let betterDocService = new BetterDocService();
         const response = await betterDocService.getDoc();
-        getElements(response);
+        // getElements(response);
       })();
-  
+
 
 
 
