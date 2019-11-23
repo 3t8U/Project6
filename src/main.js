@@ -7,15 +7,20 @@ import { BetterDocService } from './betterDoc-service.js';
 
 
 
+
 $(document).ready(function(){
+  $("form#order").submit(function(event){
+    searchDoctor = new SearchDoctor() 
 
 
-      (async () => {
-        let betterDocService = new BetterDocService();
-        const response = await betterDocService.getDoc();
-        // getElements(response);
-      })();
 
+  })
+
+(async () => {
+  let betterDocService = new BetterDocService();
+  const response = await betterDocService.getDoc();
+  getElements(response);
+})();
 
 
 
