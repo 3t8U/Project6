@@ -10,7 +10,8 @@ import { BetterDocService } from './betterDoc-service.js';
 
 $(document).ready(function(){
   $("form#order").submit(function(event){
-    searchDoctor = new SearchDoctor() 
+    searchDoctor = new SearchDoctor()
+    searchDoctor.docSearch
 
 
 
