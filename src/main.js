@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 
 function getElements(response) {
-      $('.showDoctors').text(`The local Portland doctors availible are ${response.main.humidity}%`);
+      $('.showDoctors').display(data: { meta: {<metadata>}, data: {<array[Practice]>} });
 
 
 

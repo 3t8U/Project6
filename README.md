@@ -14,16 +14,27 @@ _https://3t8u.github._
 
 * _The application creates an empty age object_
 
+* _The application creates a function that allows the user to search for a provider in the Portland Area_
 
-* _The application creates a function to collect user age and calculate user's age in Mercury, Venus, Mars & Jupiter age_
+* _Example Input: User enters a provider name "Kimi Fey Powers_
+* _Example Output: Kimi
+                  Fey Powers
+                  640 NE 71st ave  
+                  980-229-9980
+                  currently accepting patients
+                  "Short Bio"_
 
-  * _Example Input: User enters 40 years_
-  * _Example Output: "You are 166 Mercurial years, 65 Venutian years, 21 Martian years & 3 Jupiterian years old._
+* _The application creates a function that gives a list of Portland based providers that specialize in the ailment selected by the user_
 
-* _The application creates another function that takes user inputted age and compares it against the set expected age of user's gender in earth years (Male = 75 years & Female = 85 years)_
+  * _Example Input: User selects "Crohns" from drop down menu
+  * _Example Output: Availible providers in the Portland area:
+                  Kimi Fey Powers PA-c
+                  John Doctor Md
+                  Veronica Scars Md_
 
-  * _Example Input: User enters 40 years and selects gender "Male"_
-  * _Example Output: Application subtracts 40 from 80 then returns the result into a new let_
+
+
+
 
 
 
