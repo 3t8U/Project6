@@ -27,9 +27,8 @@ $(document).ready(function(){
 
 
 function getElements(response) {
-      $('.showHumidity').text(`The humidity in ${city} is ${response.main.humidity}%`);
-      $('.showTemp').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);
+      $('.showDoctors').text(`The local Portland doctors availible are ${response.main.humidity}%`);
 
 
 
-});
+};
