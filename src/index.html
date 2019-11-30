@@ -12,23 +12,29 @@
       <h2>Locate a Physician</h2>
       <label for="doctor">Search for Physician</label>
       <br>
-      <input type="text" name="doctor" placeholder="Enter name here"value="">
-      <button class="btn-success" id="doctors">Get a list of local provider options!</button>
+      <input type="text" id="doctor" placeholder="Enter name here"value="">
+      <br>
+      <br>
+      <button class="btn-info" id="doctors">Get a list of local provider options!</button>
+      <br>
       <div class="errors"></div>
       <div class="showDoctors"></div>
     </form>
     <form id="formAilment" >
+      <br>
       <h2>Please answer these short questions so, that we can find the best provider for you!</h2>
       <br>
       <br>
       <label  class = "select" for="ailment">What ails you?</label>
+      <br>
       <select class="form-control" id="ailment">
         <option value="" selected disabled>Please select</option>
         <option value = "Crohns">Crohns</option>
         <option value = "Thyroid Issues">Thyroid Issues</option>
         <option value = "Emergency">Emergency</option>
       </select>
-      <button class="btn-success" id="ailment">Get a list of local providers to treat your condition!</button>
+      <br>
+      <button class="btn-info" id="ailment">Get a list of local providers to treat your condition!</button>
       <div class="errors"></div>
       <div class="showAilment"></div>
     </form>
