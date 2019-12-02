@@ -12,7 +12,7 @@ _https://3t8u.github._
 
 ##Specs
 
-* _The application creates an empty age object_
+* _The application connects to the Better Doctor API_
 
 * _The application creates a function that allows the user to search for a provider in the Portland Area_
 

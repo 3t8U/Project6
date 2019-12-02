@@ -12,9 +12,11 @@ $(document).ready(function(){
   $("form#doctor").submit(function(event){
     event.preventDefault();
     let betterdocservice = new BetterDocService();
-    let doc = $("#doctor").val();
+    let doc = $("#inputDoctor").val();
     let test = betterdocservice.getDoc(doc);
     console.log(test);
+
+
 
 
   });

@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <title>Project 666</title>
+</html>
+<head>
+  <h2 id="workingTitle">Doctor 666 (working title)</h2>
 </head>
+<br>
+<br>
 <body>
-  <h2>Doctor 666 (working title)</h2>
-
-
   <div class="container">
+    <div class="row">
+      <div class="container col-4 transDoc">
+        <br>
+        <br>
+        <form id="doctor">
+          <h2 id="docText">Locate a Physician</h2>
+          <label for="doctor">Search for Physician</label>
+          <br>
+          <input type="text" id="inputDoctor" placeholder="Enter name here"value="">
+          <br>
+          <br>
+          <button class="btn-info" id="doctors">Get a list of local provider options!</button>
+          <br>
+        </form>
+      </div>
+      <div class="container col-4 transOR">
+        <br>
+        <h2>OR?</h2>
+      </div>
 
 
-    <form id="doctor">
-      <h2>Locate a Physician</h2>
-      <label for="doctor">Search for Physician</label>
-      <br>
-      <input type="text" id="doctor" placeholder="Enter name here"value="">
-      <br>
-      <br>
-      <button class="btn-info" id="doctors">Get a list of local provider options!</button>
-      <br>
-      <div class="errors"></div>
-      <div class="showDoctors"></div>
-    </form>
-    <form id="formAilment" >
-      <br>
-      <h2>Please answer these short questions so, that we can find the best provider for you!</h2>
-      <br>
-      <br>
-      <label  class = "select" for="ailment">What ails you?</label>
-      <br>
-      <select class="form-control" id="ailment">
-        <option value="" selected disabled>Please select</option>
-        <option value = "Crohns">Crohns</option>
-        <option value = "Thyroid Issues">Thyroid Issues</option>
-        <option value = "Emergency">Emergency</option>
-      </select>
-      <br>
-      <button class="btn-info" id="ailment">Get a list of local providers to treat your condition!</button>
-      <div class="errors"></div>
-      <div class="showAilment"></div>
-    </form>
-
+      <div class="container col-4 transAil">
+        <form id="formAilment" >
+          <br>
+          <h2 id="ailText">Answer these short questions so, that we can find the best provider for you!</h2>
+          <br>
+          <label  class = "select" for="ailment">What ails you?</label>
+          <br>
+          <select class="form-control" id="ailment">
+            <option value="" selected disabled>Please select</option>
+            <option value = "Crohns">Crohns</option>
+            <option value = "Thyroid Issues">Thyroid Issues</option>
+            <option value = "Emergency">Emergency</option>
+          </select>
+          <br>
+          <button class="btn-info" id="buttonAilment">Get a list of local providers to treat your condition!</button>
+        </form>
+      </div>
+    </div>
   </div>
-  <div id = "">
-
+  <div class="container">
+    <div class="row">
+      <div id = "results">
+        <p></p>
+      </div>
+    </div>
   </div>
 </body>
-</html>
-<html>
-<head>
+</head>
